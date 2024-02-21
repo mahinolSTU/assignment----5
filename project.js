@@ -109,8 +109,11 @@ ticketFinalPrice.innerText = totalTicketPrice;
 function sent() {
   let headerSection = document.getElementById("header-section");
   let mainSection = document.getElementById("main-section");
+  let footerSection = document.getElementById("footer-section");
   let successSection = document.getElementById("success-section");
+
   headerSection.classList.add("hidden");
   mainSection.classList.add("hidden");
+  footerSection.classList.add("hidden");
   successSection.classList.remove("hidden");
 }
