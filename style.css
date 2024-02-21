@@ -1,0 +1,12 @@
+.wraper {
+  position: relative;
+}
+.wraper button {
+  position: absolute;
+  right: 5px;
+  top: 0;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+}
